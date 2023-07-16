@@ -31,6 +31,9 @@ This is a Chat Room Server implemented in C++ using the Winsock library. It allo
 - File upload/download is implemented using file I/O operations, allowing files to be saved and retrieved from the server's file storage directory.
 
 ## Usage:
+*Please note that this code assumes you are running it on a Windows machine and have the necessary dependencies installed. Also, make sure to update the USER_DATABASE_FILE and FILE_STORAGE_DIRECTORY variables according to your needs.
+
+
 1. Compile the server code using the command:
    g++ -std=c++11 -pthread -o server server.cpp -lws2_32
 2. Compile the client code using the command:
