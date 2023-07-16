@@ -37,7 +37,7 @@ This is a Chat Room Server implemented in C++ using the Winsock library. It allo
 1. Compile the server code using the command:
    g++ -std=c++11 -pthread -o server server.cpp -lws2_32
 2. Compile the client code using the command:
-   g++ -std=c++11 -pthread -o client client.cpp -lws2_32
+   g++ -std=c++11 -o client client.cpp -lws2_32
 3. run the server :
    ./server.exe
 4. run the client:
